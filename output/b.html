@@ -1,78 +1,142 @@
-<!DOCTYPE html>
-<html lang="vn">
+<!doctype html>
+<html lang="vn" itemscope itemtype="http://schema.org/Person">
 <head>
-        <meta charset="utf-8" />
+            <meta charset="utf-8">
+        <!-- Site Meta Data -->
         <title>My First Post, rst</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Duy Quoc">
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="shortcut icon" href="url-to-favicon">
+
+        <!-- schema.org -->
+        <meta itemprop="name" content="Silk Blog">
+        <meta itemprop="image" content="">
+        <meta itemprop="description" content="">
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Style Meta Data -->
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/pygments.css" type="text/css"/>
+
+        <!-- Feed Meta Data -->
+
+        <!-- Twitter Feed -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="">
+        <meta name="twitter:image" content="">
+
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:url" content="http://localhost:8000/b.html">
+    <meta name="twitter:title" content="Silk Blog ~ My First Post, rst">
+    <meta name="twitter:description" content="Short version for index and feeds">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="Silk Blog ~ My First Post, rst"/>
+    <meta property="og:description" content="Short version for index and feeds"/>
+    <meta property="og:image" content=""/>
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Silk Blog </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/category/python.html">Python</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/b.html" rel="bookmark"
-           title="Permalink to My First Post, rst">My First Post, rst</a></h1>
-    </header>
+<body>
+<!-- Sidebar -->
+<aside>
+    <!--<center><a href="http://localhost:8000"><img id="avatar" src=""></a></center>-->
+    <h1>Silk Blog</h1>
+        <p>Go to low level system</p>
+    <br>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2010-10-03T10:20:00+07:00">
-                Published: Sun 03 October 2010
-        </abbr>
-		<br />
-        <abbr class="modified" title="2010-10-04T18:40:00+07:00">
-                Updated: Mon 04 October 2010
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/duy-quoc.html">Duy Quoc</a>
-        </address>
-<p>In <a href="/category/python.html">Python</a>.</p>
-<p>tags: <a href="/tag/thats.html">thats</a> <a href="/tag/awesome.html">awesome</a> </p>
-</footer><!-- /.post-info -->      <p>This is my first post - rst.</p>
+    <nav class="nav">
+        <ul class="list-bare">
 
-    </div><!-- /.entry-content -->
+                <li><a class="nav__link" href="http://localhost:8000">Home</a></li>
+                <li><a class="nav__link" href="#">Products</a></li>
+                <li><a class="nav__link" href="#">About</a></li>
+                <li><a class="nav__link" href="#">Say 2!</a></li>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        </ul>
+    </nav>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+    <p class="social">
+                <a href="https://www.linkedin.com/in/duyquoc" target="_blank"><img
+                        src="http://localhost:8000/theme/images/icons/linkedin.png"></a>
+                <a href="https://github.com/dqduy" target="_blank"><img
+                        src="http://localhost:8000/theme/images/icons/github.png"></a>
+    </p>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+
+
+</aside>
+
+<!-- Content -->
+<article>
+    <section id="content">
+        <article>
+            <h2 class="post_title post_detail"><a href="http://localhost:8000/b.html" rel="bookmark"
+                                                  title="Permalink to My First Post, rst">My First Post, rst</a></h2>
+            <div class="entry-content blog-post">
+                <p>This is my first post - rst.</p>
+
+            </div>
+            <div class="post_list">
+                <span>By </span>
+                <a href="http://localhost:8000/author/duy-quoc.html">@Duy Quoc</a>
+                <span> in </span>
+                <span class="post_category"><a href="http://localhost:8000/category/python.html" rel="bookmark"
+                                               title="Permalink to Python">[ Python ]</a></span>
+                <span class="post_date">Sun 03 October 2010</span>
+                <div><span>Tags : </span>
+                            <span><a href="http://localhost:8000/tag/thats.html">#thats, </a></span>
+                            <span><a href="http://localhost:8000/tag/awesome.html">#awesome, </a></span>
+                </div>
+
+                <div class="entry-social">
+                    <span class="twitter"><a target="_blank" rel="nofollow"
+                                             onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"
+                                             title="Twitter"
+                                             href="https://twitter.com/share?url=http://localhost:8000/b.html&text=My First Post, rst&via="><img
+                            src="http://localhost:8000/theme/images/icons/twitter-s.png"></a></span>
+
+                    <span class="gplus"><a target="_blank" title="Google +"
+                                           href="https://plus.google.com/share?url=http://localhost:8000/b.html&hl=fr"
+                                           rel="nofollow"
+                                           onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="http://localhost:8000/theme/images/icons/google-s.png"></a></span>
+
+                    <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow"
+                                              onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"
+                                              href="https://www.facebook.com/sharer.php?u=http://localhost:8000/b.html&t=My First Post, rst"><img
+                            src="http://localhost:8000/theme/images/icons/facebook-s.png"></a></span>
+
+                    <a target="_blank" title="Linkedin"
+                       href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8000/b.html&title=My First Post, rst"
+                       rel="nofollow"
+                       onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="http://localhost:8000/theme/images/icons/linkedin-s.png"></a>
+
+                    <span class="mail"><a
+                            href="mailto:?subject=My First Post, rst&amp;body=Viens découvrir un article à propos de [My First Post, rst] sur le site de Duy Quoc. http://localhost:8000/b.html"
+                            title="Share by Email" target="_blank"><img
+                            src="http://localhost:8000/theme/images/icons/mail-s.png"></a></span>
+                </div>
+            </div>
+        </article>
+    </section>
+</article>
+
+<!-- Footer -->
+    <footer style="text-align:center">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+        <p>© Copyright 2017</p>
+        <p>
+            Made by <a href="http://getpelican.com/">Pelican</a>, 
+            use <a href="https://github.com/parbhat/pelican-blue">Pelican-Blue</a> with my ♥
+        </p>
+        
+    </footer>
+
 
 </body>
 </html>
