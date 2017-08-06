@@ -75,8 +75,8 @@
     <nav class="nav">
         <ul class="list-bare">
 
-            {% for title, link in MENUITEMS %}
-                <li><a class="nav__link" href="{{ link }}">{{ title }}</a></li>
+            {% for title in MENUITEMS %}
+                <li><a class="nav__link" href="http://duyquoc.com">{{ title }}</a></li>
             {% endfor %}
 
             {% if DISPLAY_PAGES_ON_MENU and PAGES %}{% for p in pages %}
