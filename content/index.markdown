@@ -1,10 +1,10 @@
-Title: First post - md
-Date: 2010-12-03 10:20
-Modified: 2010-12-05 19:30
+Title: Sample post, with Markdown version
+Date: 2010-12-03 10:20:25
+Modified: 2010-12-05 19:30:25
 Category: Python
 Tags: pelican, publishing
 Authors: Duy Quoc
-Slug: a
+Slug: sample-md
 Summary: Short version for index and feeds
 
 An h1 header

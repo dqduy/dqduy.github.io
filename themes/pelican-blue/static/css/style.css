@@ -89,6 +89,7 @@ article > header {
   background-color: white;
 }
 .post_list {
+  border-bottom: 1px solid #eee;
   list-style-type: none;
   padding: 10px 10px;
   -moz-border-radius: 5px 0;

@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Bangkok'
 
 DEFAULT_LANG = u'vn'
-
+DEFAULT_DATE_FORMAT = '%d/%m/%Y'
 THEME = 'themes/pelican-blue'
 SIDEBAR_DIGEST = 'Go to low level system'
 FAVICON = 'url-to-favicon'
