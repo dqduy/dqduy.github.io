@@ -45,6 +45,7 @@ echo "===================================="
 cd master #
 git config --global user.email "qduy88@gmail.com"
 git config --global user.name "qduy"
+git config --global push.default matching
 git add -A 
 git commit -m "Apply changes"
 git push
