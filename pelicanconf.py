@@ -16,7 +16,7 @@ THEME = 'themes/pelican-blue'
 SIDEBAR_DIGEST = 'Go to low level system'
 FAVICON = 'url-to-favicon'
 
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (('Home', '') )
 #('Products', '#'), ('About', '#') , ('Say 2!', '#')
 
