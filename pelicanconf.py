@@ -35,6 +35,6 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/duyquoc'),
           ('github', 'https://github.com/dqduy'))
 
 DEFAULT_PAGINATION = 10
-
+DELETE_OUTPUT_DIRECTORY = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
