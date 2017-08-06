@@ -24,7 +24,12 @@ jobs:
       - run:
             name: Install dependencies
             command: |
-                sudo pip install pelican markdown   
+                sudo pip install pelican markdown 
+                
+      # Configure ssh keys                    
+      - add-ssh-keys:
+            fingerprints:
+                - "8b:d0:77:30:34:44:09:bd:77:aa:c2:03:12:8f:ef:ec"
       # Build
       - run:
             name: Build my blog

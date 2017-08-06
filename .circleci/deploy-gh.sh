@@ -43,6 +43,8 @@ ls -l -a master
 echo "Step 5"
 echo "===================================="
 cd master #
+git config --global user.email "qduy88@gmail.com"
+git config --global user.name "qduy"
 git add -A 
 git commit -m "Apply changes"
 git push
