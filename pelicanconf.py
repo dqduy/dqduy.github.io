@@ -17,7 +17,7 @@ SIDEBAR_DIGEST = 'Go to low level system'
 FAVICON = 'url-to-favicon'
 
 DISPLAY_PAGES_ON_MENU = True
-MENUITEMS = (('Home', "duyquoc.com"), ('Products', '#'), ('About', '#') , ('Say 2!', '#'))
+MENUITEMS = (('Home', ''), ('Products', '#'), ('About', '#') , ('Say 2!', '#'))
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
