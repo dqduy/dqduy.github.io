@@ -29,7 +29,7 @@ echo "List files after process: "
 ls -l -a master
 
 #Step 5: Commit and push to master branch
-cd master
+cd master #
 git add -A 
 git commit -m "Apply changes"
 git push
