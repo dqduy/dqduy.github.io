@@ -79,8 +79,9 @@ Show me some more stuff, please
 
 We can also include figures:
 
-.. figure:: image.png
-   :width: 300pt
+.. figure:: images/image.jpg
+   :width: 540pt
+   :alt: OK
 
 
    The magnetisation in a small ferromagnetic disk. The diametre is of the order of 120 nanometers and the material is Ni20Fe80. Png is a file format that is both acceptable for html pages as well as for (pdf)latex.

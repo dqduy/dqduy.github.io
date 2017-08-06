@@ -10,6 +10,7 @@ ls -l -a
 echo -e "\n"
 echo "Build is starting..."
 
+#Generate html files
 pelican
 
 echo "Output files are:"
