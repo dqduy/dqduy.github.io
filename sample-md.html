@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="vn" itemscope itemtype="http://schema.org/Person">
+<head>
+            <meta charset="utf-8">
+        <!-- Site Meta Data -->
+        <title>Sample post, with Markdown version</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Duy Quoc">
+
+        <link rel="shortcut icon" href="url-to-favicon">
+
+        <!-- schema.org -->
+        <meta itemprop="name" content="Silk Blog">
+        <meta itemprop="image" content="">
+        <meta itemprop="description" content="">
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Style Meta Data -->
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/pygments.css" type="text/css"/>
+
+        <!-- Feed Meta Data -->
+
+        <!-- Twitter Feed -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="">
+        <meta name="twitter:image" content="">
+
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:url" content="http://localhost:8000/sample-md.html">
+    <meta name="twitter:title" content="Silk Blog ~ Sample post, with Markdown version">
+    <meta name="twitter:description" content="Short version for index and feeds">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="Silk Blog ~ Sample post, with Markdown version"/>
+    <meta property="og:description" content="Short version for index and feeds"/>
+    <meta property="og:image" content=""/>
+</head>
+
+<body>
+<!-- Sidebar -->
+<aside>
+    <!--<center><a href="http://localhost:8000"><img id="avatar" src=""></a></center>-->
+    <h1>Silk Blog</h1>
+        <p>Go to low level system</p>
+    <br>
+
+
+    <nav class="nav">
+        <ul class="list-bare">
+
+                <li><a class="nav__link" href="http://localhost:8000">Home</a></li>
+                <li><a class="nav__link" href="#">Products</a></li>
+                <li><a class="nav__link" href="#">About</a></li>
+                <li><a class="nav__link" href="#">Say 2!</a></li>
+
+
+        </ul>
+    </nav>
+
+    <p class="social">
+                <a href="https://www.linkedin.com/in/duyquoc" target="_blank"><img
+                        src="http://localhost:8000/theme/images/icons/linkedin.png"></a>
+                <a href="https://github.com/dqduy" target="_blank"><img
+                        src="http://localhost:8000/theme/images/icons/github.png"></a>
+    </p>
+
+
+
+</aside>
+
+<!-- Content -->
+<article>
+    <section id="content">
+        <article>
+            <h2 class="post_title post_detail"><a href="http://localhost:8000/sample-md.html" rel="bookmark"
+                                                  title="Permalink to Sample post, with Markdown version">Sample post, with Markdown version</a></h2>
+            <div class="post_list" style="text-align:right">
+                <span class="post_date"><b>Published</b>: 03/12/2010</span>
+            </div>
+            <div class="entry-content blog-post">
+                <h1>An h1 header</h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+<p>Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.</p>
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
+in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+<h2>An h2 header</h2>
+<p>Here's a numbered list:</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here's a code sample:</p>
+<div class="highlight"><pre><span></span># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</pre></div>
+
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+<div class="highlight"><pre><span></span>define foobar() {
+    print &quot;Welcome to flavor country!&quot;;
+}
+</pre></div>
+
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
+<span class="c1"># Quick, count to ten!</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="c1"># (but not *too* quick)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+    <span class="k">print</span> <span class="n">i</span>
+</pre></div>
+
+
+<h3>An h3 header</h3>
+<p>Now a nested list:</p>
+<ol>
+<li>
+<p>First, get these ingredients:</p>
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul>
+</li>
+<li>
+<p>Boil some water.</p>
+</li>
+<li>
+<p>Dump everything in the pot and follow
+    this algorithm:</p>
+<div class="highlight"><pre><span></span>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</pre></div>
+
+
+<p>Do not bump wooden spoon or it will fall.</p>
+</li>
+</ol>
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+<p>Here's a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here's a footnote <sup id="fnref-1"><a class="footnote-ref" href="#fn-1">1</a></sup>.</p>
+<p>Tables can look like this:</p>
+<p>size  material      color</p>
+<hr>
+<p>9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent</p>
+<p>Table: Shoes, their sizes, and what they're made of</p>
+<p>(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</p>
+<hr>
+<p>keyword   text</p>
+<hr>
+<p>red       Sunsets, apples, and
+          other red or reddish
+          things.</p>
+<p>green     Leaves, grass, frogs
+          and other things it's
+          not easy being.</p>
+<hr>
+<p>A horizontal rule follows.</p>
+<hr>
+<p>Here's a definition list:</p>
+<dl>
+<dt>apples</dt>
+<dd>
+<dl>
+<dt>Good for making applesauce.</dt>
+<dt>oranges</dt>
+<dd>
+<dl>
+<dt>Citrus!</dt>
+<dt>tomatoes</dt>
+<dd>There's no "e" in tomatoe.</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>Again, text is indented 4 spaces. (Put a blank line between each
+term/definition pair to spread things out more.)</p>
+<p>Here's a "line block":</p>
+<p>| Line one
+|   Line too
+| Line tree</p>
+<p>and images can be specified like so:</p>
+<p><img alt="example image" src="example-image.jpg" title="An exemplary image"></p>
+<p>Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:</p>
+<p>$$I = \int \rho R^{2} dV$$</p>
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn-1">
+<p>Footnote text goes here.&#160;<a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+            </div>
+            <div>
+                    <span>Tags : </span>
+                            <span><a href="http://localhost:8000/tag/pelican.html">#pelican </a></span>
+                            <span><a href="http://localhost:8000/tag/publishing.html">#publishing </a></span>
+            </div>
+        </article>
+    </section>
+</article>
+
+<!-- Footer -->
+    <footer style="text-align:center">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+        <p>© Copyright 2017</p>
+        <p>
+            Made by <a href="http://getpelican.com/">Pelican</a>, 
+            use <a href="https://github.com/parbhat/pelican-blue">Pelican-Blue</a> with my ♥
+        </p>
+        
+    </footer>
+
+
+</body>
+</html>
