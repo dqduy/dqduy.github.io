@@ -27,6 +27,11 @@ jobs:
                 sudo pip install pelican markdown   
       # Build
       - run:
-            bash .circleci/setup-gh.sh
-      # Push to GitHub
-       
+            name: Build my blog
+            command: 
+                bash .circleci/build-gh.sh
+      # Deploy to GitHub
+      - run: 
+            name: Deploy content to GitHub
+            command:
+                bash .circleci/deploy-gh.sh
