@@ -24,4 +24,4 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            pip install pelican markdown   
+            sudo pip install pelican markdown   
