@@ -4,7 +4,7 @@ echo "Current directory is "
 pwd
 
 #Step 1: Clone master branch to CIRCLE_WORKING_DIRECTORY with named "master"
-git clone -b master https://github.com/dqduy/dqduy.github.io.git
+git clone -b master https://github.com/dqduy/dqduy.github.io.git master
 
 echo "List files before process: "
 ls -l -a master
