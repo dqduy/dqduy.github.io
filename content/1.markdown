@@ -1,0 +1,9 @@
+Title: Setting Up a Pelican Blog on GitHub
+Date: 2017-08-06 10:20:25
+Modified: 2017-08-06 10:20:25
+Category: Python
+Tags: pelican, publishing, github
+Authors: Duy Quoc
+Slug: setting-up-pelican-on-github
+Summary: Short version for index and feeds
+
