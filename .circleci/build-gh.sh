@@ -1,13 +1,16 @@
 echo "Git Status"
-echo "==================="
+echo "===================================="
 git status
-echo "==================="
+echo "===================================="
 
 echo "Current directory is "
 pwd
 ls -l -a
 
-echo "\n\n"
+echo -e "\n"
 echo "Build is starting..."
 
 pelican
+
+echo "Output files are:"
+ls -l -a output
